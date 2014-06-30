@@ -93,25 +93,25 @@ LinkedList.prototype.get = function(index){
 }
 
 var ll = new LinkedList([2,3,4,4,5,20,22]);
-// ll.push(5);
-// ll.push(10);
-// ll.push(15);
-// ll.push(20);
-// ll.push(25);
-// ll.unshift(1);
-// ll.unshift(0);
-// ll.unshift(2);
+ll.push(5);
+ll.push(10);
+ll.push(15);
+ll.push(20);
+ll.push(25);
+ll.unshift(1);
+ll.unshift(0);
+ll.unshift(2);
 
-// console.log('#####');
-// console.log(ll.pop());
-// console.log(ll.pop());
+console.log('#####');
+console.log(ll.pop());
+console.log(ll.pop());
 
-// console.log('#####');
-// console.log(ll.shift());
-// console.log(ll.shift());
+console.log('#####');
+console.log(ll.shift());
+console.log(ll.shift());
 
-// console.log('#####');
-// console.log(ll);
+console.log('#####');
+console.log(ll);
 // console.log('#####');
 // console.log(ll.indexOf(20));
 console.log(ll.get(5).value)
